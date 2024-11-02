@@ -29,5 +29,6 @@ What It Does:
 
 Launches multiple concurrent client instances that send requests with Lamport clock values. Checks if the server updates its Lamport clock based on incoming requests and returns the correct clock value in responses. Verifies that all events are processed in the correct causal order. Best Use Case: Useful for distributed systems where causally consistent ordering of events is critical, such as in collaborative applications or event-driven architectures.
 
-How to Run the Tests
+How to Run the Tests:
+
 Run Each Test Individually: Use your preferred IDE or command-line tool to run each test class independently. Each test will log its results to the console. Restart During Tests: For tests that simulate server failure (e.g., FailureHandlingTest and FailureToleranceTest), follow prompts to manually restart the server if required.
